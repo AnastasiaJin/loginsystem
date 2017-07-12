@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin :0;
+}
+.header{
+	background-color: #000049;
+	width: 100%;
+	height: 150px;
+}
+.container-fluid{
+	padding-left: 120px;
+	padding-right: 120px;
+}
+#style1{
+	float: left;
+	width: 300px;	
+	margin-top: -130px;
+}
+.btn-default{
+	top: -135px;
+	width: 93px;
+	height: 30px;
+	background-color: #000049;
+	color: #595f79;
+	border: 1px solid #595f79;
+}
+.btn-group{
+	float: right;
+}
+button:hover{
+	color: white;
+}
+.left{
+	float: left;
+	margin-top: -30px;
+	margin-left: -50px;
+}
+.left li{
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+}
+.left a{
+	font-family: arial;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+ .left a:hover{
+	color: #ff8000;
+}
+ .right{
+ 	float: right;
+	margin-top: -30px;
+	margin-right: -220px;
+}
+ .right li{
+	float: right;
+	list-style :none;
+	margin-right: 40px;
+}
+ .right img{
+	width: 21px;
+	height: 21px;
+}
+ .right a{
+	color:#595f79;
+	font-size: 16px; 
+	text-decoration: none;
+}
+ .right a:hover{
+	color: white;
+}
+ .right img{
+	width: 21px;
+	height: 21px;
+}
+/*.style2-1{
+	height: 15px;
+	background-color: white;
+	transform: scaleX(0);
+	transition: all 1s;
+}
+.style2-1:hover{
+	transform: scaleX(15);
+}*/
+.style5{
+	margin-top: 30px;
+	margin-left: -25px;
+}
+.style5 li{
+	float: left;
+	margin-left: 55px;
+	list-style: none;
+}
+.style5 a{
+	font-size: 14px;
+	color: #6c6c6c;
+	text-decoration: none;
+}
+.style5 a:hover{
+	color: #ff8000;
+}
+.minianimate{
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	margin-top: 70px;
+}
+.style6{
+	position: absolute;
+	border: 1px solid #ff8000;
+	width: 118px;
+	z-index: 1;
+	margin-top: -0.7px;
+}
+.box1{
+	position: relative;
+	height: 344px;
+	width: 100%;
+	overflow: hidden;	
+}
+.box1 .style7{
+	width: 100%;
+	margin-top: 25px;
+}
+.box1-1{
+	position: absolute;
+	transform: translate(0px,0px);
+	transition: all 0.3s;
+	height: 103px;
+	width:843px;
+	bottom: -103px;
+	background-color: white;
+	
+}
+.box1:hover .box1-1{
+	transform: translate(0px,-103px);
+}
+.box1-1 p{
+	margin-top: 15px;
+	margin-left: 15px;
+	color: black;
+	font-size: 16px;
+}
+.box1-1 p:hover{
+	color: #ff8000;
+}
+.box1-1 img{
+	width: 28px;
+	height: 28px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+.style8{
+	width: 100%;
+	z-index: -1;
+}
+.style9{
+	width: 30px;
+	margin-left: 1px;
+
+	z-index: 1;
+}
+/*.style9-1{
+	margin-top: -413px;	
+}
+.style9-2{
+	margin-top: -594px;
+}
+.style9-3{
+	margin-top: -426px;
+}
+.style9-4{
+	margin-top: -401px;
+}
+.style9-5{
+	margin-top: -392px;
+}
+.style9-6{
+	margin-top: -444px;
+}
+.style9-7{
+	margin-top: -538px;
+}
+.style9-8{
+	margin-top: -538px;
+}*/
+.style10{
+	width: 28px;
+    margin-top: 20px;
+}
+.box3{
+	margin-top: 35px;
+	height: 319px;
+}
+.box3:hover{
+	border: 3px solid #ff8000;
+}
+.box3 a{
+	text-decoration: none;
+}
+.box3-2-1 p{
+	font-size: 16px;	
+	margin-left: 13px;
+	color: black;
+}
+
+.box3 p:hover{
+	color: #ff8000 !important;
+}
+.box3-1{
+	height: 200px;
+	overflow: hidden;
+}
+/*.box3-1 a {
+	display: inline-block;
+	height: 200px;
+	overflow: hidden;
+}*/
+.box3-2{
+	margin-top: 15px;
+}
+.box3-2-2{
+	margin-top: 20px;
+	margin-left: 13px;
+}
+.box3-2-2 p{
+	color: #bebebe;
+	margin-left: 36px;
+	margin-top: -25px;
+}
+.style11{
+	width: 28px;
+	height: 28px;
+	margin-top: 20px;
+	border-radius: 3px; 
+}
+.bottomer{
+	background-color: #000049;
+	width: 100%;
+	height: 430px;
+	margin-top: 45px;
+}
+.style12{
+	color: #595f79;
+	font-size: 18px;
+	margin-top: 80px;
+}
+.box4{
+	margin-top: 30px;
+}
+.bottomer li{
+	list-style: none;
+	margin-top: 7px;
+}
+.bottomer a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #595f79;
+}
+.bottomer a:hover{
+	color: white;
+}
+.box5{
+	margin-left: 190px;
+	margin-top: -219px;
+}
+.box6{
+	margin-top: -192px;
+	margin-left: 355px;
+}
+.style13{
+	float: right;
+	color: #595f79;
+	font-size: 18px;
+	margin-top: -112px;
+	margin-right: 570px;
+}
+.style14{
+	float: right;
+	margin-right: 550px;
+	margin-top: -58px;
+}
+.style15{
+	float: right;
+	margin-right: 475px;
+	margin-top: -58px;
+	width: 66px;
+	height: 20px;
+	border-radius: 2px;
+	background-color: white;
+}
+.style15 img{
+	width: 20px;
+	margin-left: 3px;
+}
+.style15 p{
+	position: relative;
+	top: -18px;
+	left: 23px;
+	color: blue;
+	font-size: 12px;
+}
+.lastside{
+	position: relative;
+	width: 100%;
+	background-color: #000031;
+	height: 70px;
+}
+.style16{
+	margin-left: 455px;
+}
+.style16 p{
+	position: absolute;
+	color: #595f79;
+	font-size: 13px;
+	top: 28px;
+}

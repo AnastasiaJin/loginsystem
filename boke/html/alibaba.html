@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="../css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/alibaba.css" media="only screen and (min-width:780px)" />
+	<style type="text/css">
+		@media screen and (max-width: 780px)
+		{
+
+		}
+	</style> 
+	<script src="../js/jquery-1.11.3.js"></script>
+</head>
+<body>
+	<div class="header"></div>
+	<div class="container-fluid">
+		<img src="../images/logo1.png" id="style1">
+		<div class="btn-group">
+			<button type="button" class="btn  btn-default" >中文</button>
+			<button  type="button" class="btn  btn-default">ENGLISH</button>
+		</div> 
+		<ul class="left">
+			<li>
+				<a href="http://www.aliued.com/">博文</a>
+			</li>
+			<li>
+				<a href="http://www.aliued.com/?page_id=2807">关于我们</a>
+			</li>			
+			<li>
+		    	<a href="http://www.aliued.com/?page_id=2809">加入我们</a>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			$('a:first').css('color','#FF8000');
+		</script>	
+		<ul class="right">	
+			<li onmouseover="mouseOver2()" onmouseout="mouseOut2()">
+	<!--			<div class="style2-1"></div> -->
+				<img src="../images/sousuo1.png" id="style2">
+			</li>
+			<li onmouseover="mouseOver3()" onmouseout="mouseOut3()">
+				<img src="../images/erweima1.png" id="style3">
+			</li>
+			<li onmouseover="mouseOver4()" onmouseout="mouseOut4()">
+				<img src="../images/wifi1.png" id="style4">
+			</li>
+			<li>
+				<a href="http://www.aliued.com/wp-login.php">登录</a>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			function mouseOver2(){
+				document.getElementById('style2').src ="../images/sousuo.png"
+			}
+			function mouseOut2(){
+				document.getElementById('style2').src ="../images/sousuo1.png"
+			}
+			function mouseOver3(){
+				document.getElementById('style3').src ="../images/erweima.png"
+			}
+			function mouseOut3(){
+				document.getElementById('style3').src ="../images/erweima1.png"
+			}
+			function mouseOver4(){
+				document.getElementById('style4').src ="../images/wifi.png"
+			}
+			function mouseOut4(){
+				document.getElementById('style4').src ="../images/wifi1.png"
+			}
+		</script>		 
+    	<script type="text/javascript">
+			document.getElementByClass("btn-default").onclick=function(){changstyle()};
+			function changestyle(){
+				$('.btn-default').css({
+					'backgroundcolor' : '#595f79',
+					'color'           : '#000049',
+				})
+			}
+		</script>
+		<div class="style5">
+			<li>
+				<a href="http://www.aliued.com/">最新推荐</a>
+			</li>
+			<li>
+				<a href="http://www.aliued.com/?cat=58">
+					<span>UR</span>  <span>用户研究</span>
+				</a>
+			</li>
+			<li onmouseover="mouseOver()" onmouseout="mouseOut()">
+				<a href="http://www.aliued.com/?cat=12">
+					<span>ID</span>  <span>交互设计</span>
+				</a>
+			</li>
+			<li onmouseover="mouseOver()" onmouseout="mouseOut()">
+				<a href="http://www.aliued.com/?cat=15">
+					<span>VD</span>  <span>视觉设计</span>
+				</a>
+			</li>
+			<li onmouseover="mouseOver()" onmouseout="mouseOut()">
+				<a href="http://www.aliued.com/?cat=14">
+					<span>FD</span>  <span>前端开发</span>
+				</a>
+			</li>
+			<li onmouseover="mouseOver()" onmouseout="mouseOut()">
+				<a href="http://www.aliued.com/?cat=71">
+					<span>TM</span>  <span>团队生活</span>
+				</a>
+			</li>
+			<script type="text/javascript">
+				$('.style5 span:first').css('color','#2894ff')
+			</script>
+			<script type="text/javascript">
+				$('.style5 span:eq(2)').css('color','red')
+			</script>
+			<script type="text/javascript">
+				$('.style5 span:eq(4)').css('color','#ff8000')
+			</script>
+			<script type="text/javascript">
+				$('.style5 span:eq(6)').css('color','#00ec00')
+			</script>
+			<script type="text/javascript">
+				$('.style5 span:eq(8)').css('color','#9393ff')
+			</script>  
+		</div>
+		<div class="minianimate">
+			<div class="style6"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+				<div class="box1">
+					<a href="http://www.aliued.com/?p=2757">					<img src="../images/slide.jpg" class="style7">
+						<div class="box1-1">
+							<p>阿里巴巴国际UED招聘</p>
+							<img src="../images/none.jpg">
+						</div>	
+					</a>
+				</div>				
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/11111.png) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=4095" >
+					</div>	
+						<!-- <a href="http://www.aliued.com/?cat=14">
+							<img src="../images/FD.png" class="style9 style9-1">
+						</a> -->	
+					</a>	
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=4095">
+								<p>React应用下的单元测试</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1237">
+								<img src="../images/one.jpeg" class="style10"> 
+								<p>Lovesueee</p>
+							</a>	
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$('.box2 img:eq(2)').hover(function(){
+								$('.box2-1 p').css('color','#ff8000')
+							},function(){
+								$('.box2-1 p').css('color','#bebebe')
+							});
+						});
+					</script>		
+				</div>					
+			</div>		
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/1.jpg) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=4060">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-2">
+							</a> -->
+						</a>
+					</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=4060">
+								<p>今天，你升级Webpack2了吗</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1237">
+								<img src="../images/one.jpeg" class="style10">
+								<p>Lovesueee</p>
+							</a>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/2.jpg) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=4052">
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-3">
+							</a>	 -->
+						</a>
+					</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=4052">
+								<p>Rax深入浅出-样式编写</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1237">
+								<img src="../images/one.jpeg" class="style10">
+								<p>Lovesueee</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/3.jpg) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=4045">
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-4">
+							</a> -->
+						</a>
+					</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=4045">
+								<p>Rax深入浅出-入门</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1237">
+								<img src="../images/one.jpeg" class="style10">
+								<p>Lovesueee</p>
+							</a>
+						</div>	
+					</div>
+				</div>
+			</div>	
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/4.png) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=4060">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-5">
+							</a> -->
+						</a>
+					</div>					
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=4060">
+								<p>react项目的一个ie8兼容性问题</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1283">
+								<img src="../images/one.jpeg" class="style10">
+								<p>Lovesueee</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/5.jpg) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=3240">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-6">
+							</a> -->
+						</a>
+					</div>					
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=3240">
+								<p>Rax深入浅出-开篇</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1283">
+								<img src="../images/none.jpg" class="style11">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="box3">
+					<div class="box3-1" style="background: url(../images/6.jpg) center no-repeat;background-size: auto 200px;">
+						<a href="http://www.aliued.com/?p=3204">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-2">
+							</a> -->
+						</a>
+					</div>		
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=3204">
+								<p>Redux卍解</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1250">
+								<img src="../images/none.jpg" class="style11">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	    	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+	    		<div class="box3">
+	    			<div class="box3-1" style="background: url(../images/7.png) center no-repeat;background-size: auto 200px;">
+	    				<a href="http://www.aliued.com/?p=3199">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-7">	
+							</a> -->
+						</a>
+	    			</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=3199">
+								<p>Angular路由深入浅出（五）</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1250">
+								<img src="../images/none.jpg" class="style11">
+							</a>
+						</div>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+	    		<div class="box3">
+	    			<div class="box3-1" style="background: url(../images/8.jpg) center no-repeat;background-size: auto 200px;">
+	    				<a href="http://www.aliued.com/?p=3195">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-6">
+							</a> -->
+						</a>
+	    			</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=3195">
+								<p>Angular服务深度剖析（四）</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1250">
+								<img src="../images/none.jpg" class="style11">
+							</a>
+						</div>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+	    		<div class="box3">
+	    			<div class="box3-1" style="background: url(../images/9.jpg) center no-repeat;background-size: auto 200px;">
+	    				<a href="http://www.aliued.com/?p=3190">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-8">
+							</a> -->
+						</a>
+	    			</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=3190">
+								<p>Angular指令编译原理（三）</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1250">
+								<img src="../images/none.jpg" class="style11">
+							</a>
+						</div>
+					</div>
+				</div>
+	    	</div>
+	    	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+	    		<div class="box3">
+	    			<div class="box3-1" style="background: url(../images/10.jpg) center no-repeat;background-size: auto 200px;">
+	    				<a href="http://www.aliued.com/?p=3180">	
+							<!-- <a href="http://www.aliued.com/?cat=14">
+								<img src="../images/FD.png" class="style9 style9-6">
+							</a> -->
+						</a>
+	    			</div>
+					<div class="box3-2">
+						<div class="box3-2-1">
+							<a href="http://www.aliued.com/?p=3180">
+								<p>从Angular源码看scope（二）</p>
+							</a>
+						</div>
+						<div class="box3-2-2">
+							<a href="http://www.aliued.com/?author=1250">
+								<img src="../images/none.jpg" class="style11">
+							</a>
+						</div>
+					</div>
+				</div>
+	    	</div>
+	    </div>
+	</div>
+	<div class="bottomer">
+		<div class="container-fluid">
+			<div class="style12">
+	    		<p>友情链接</p>
+	   		</div>
+	   		<div class="box4">
+	   			<ul>
+	   				<li>
+	   					<a href="http://www.aliued.cn/">阿里巴巴（中文站）UED</a>
+	   				</li>
+	   				<li>
+	   					<a href="http://ued.alipay.com/">支付宝UED</a>
+	   				</li>
+	   				<li>
+	   					<a href="http://mux.alimama.com/">阿里妈妈MUX</a>
+	   				</li>
+	   				<li>
+	   					<a href="http://ued.taobao.org/blog">淘宝UED</a>
+	   				</li>
+	   				<li>
+	   					<a href="https://uiiiuiii.com/">优优教程网</a>
+	   				</li>
+	   				<li>
+	   					<a href="http://cdc.tencent.com/">腾讯CDC</a>
+	   				</li>
+	   				<li>
+	   					<a href="http://isux.tencent.com/">腾讯ISUX</a>
+	   				</li>
+	   				<li>
+	   					<a href="http://mxd.tencent.com/">腾讯MXD</a>
+	   				</li>
+	   			</ul>
+	   		</div>
+	   		<div class="box5">
+	   			<ul>
+	   				<li>
+	   					<a href="http://tgideas.qq.com/">腾讯游戏TGIDEAS</a>
+	   				</li>
+	   				<li>
+		   				<a href="http://mux.baidu.com/">百度MUX</a>
+		   			</li>
+		   			<li>
+		   				<a href="http://mxd.tencent.com/">百度Web 前端研发部</a>
+		   			</li>
+		   			<li>
+		   				<a href="http://ue.baidu.com/">百度用户体验部</a>
+		   			</li>
+		   			<li>
+		   				<a href="http://ixdc.org/">IXDC</a>
+		   			</li>
+		   			<li>
+		   				<a href="http://udc.weibo.com/">新浪UED</a>
+		   			</li>
+		   			<li>
+		   				<a href="http://jdc.jd.com/">京东UED</a>
+		   			</li>
+	   			</ul>
+	   		</div>
+	   		<div class="box6">
+	   			<ul>
+	   				<li>
+		   				<a href="http://vc.changyou.com/">畅游视觉设计中心</a>
+		   			</li>
+		   			<li>
+		   				<a href="http://uedc.163.com/">网易UEDC</a>
+		   			</li>
+	   			</ul>
+	   		</div>
+	   		<div class="style13">
+	   			<p>关注微博公众号</p>
+	   		</div>
+	   		<div class="style14">
+	   			<img src="../images/logo2.png">
+	   		</div>
+	   		<div class="style15">
+	   			<a href="http://widget.weibo.com/dialog/follow.php?fuid=2855231312&refer=www.aliued.com&language=zh_cn&type=widget_page&vsrc=app_followbutton&backurl=http%3A%2F%2Fwww.aliued.com%2F&rnd=1499676140435">
+	   				<img src="../images/weibo.png">
+	   				<p>加关注</p>
+	   			</a>
+	   		</div>
+		</div>
+	</div>
+	<div class="lastside">
+		<div class="style16">
+			<p>Copyright © 1998 - 2015 阿里巴巴国际站UED . All Rights Reserved. 浙ICP备09002987号-30</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('div[class="style10"]').hover(function(){
+				$('.box3 p:nth-child(2)').css('color','#ff8000')
+			},function(){
+				$('.box3 p:nth-child(2)').css('color','#bebebe')
+			});
+		});
+	</script>
+</body>
+</html>	
